@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+        function handleClick() {
+            let array = [3, 6, 8, 2, 79, 32, 88, 3, 5, 6, 9, 0]
+            let number = document.getElementById("el").value
+            let index;
+            for (var i = 0; i < array.length; i++) {
+                if (array[i] == number) {
+                    console.log("i found it")
+                    index = i
+                    break;
+                }
+            }
+            console.log(index)
+        }
+    </script>
+</head>
+
+<body>
+    <input type="text" placeholder="enter number" id="el" />
+    <button type="submit" onClick="handleClick()"> submit</button>
+</body>
+
+</html>
