@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+        let array1 = [3, 5, 8, 3, 7, 2, 79, 2, 4]
+        let array2 = [5, 9, 452, 856, 12, 768, 23, 2]
+        // let mergeArray =[...array1,...array2] this is the shortcut way 
+        let mergeArray = []
+        for (var i = 0; i < array1.length; i++) {
+            array2.push(array1[i])
+        }
+        for (var j = 0; j < array2.length; j++) {
+            mergeArray.push(array2[j])
+        }
+        console.log(mergeArray)
+
+    </script>
+</head>
+
+<body>
+    <h1>Merge Two Array in One Array</h1>
+</body>
+
+</html>
