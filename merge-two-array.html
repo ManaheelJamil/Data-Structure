@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script>
-
+        
+        //  with for loop
         let array1 = [3, 5, 8, 3, 7, 2, 79, 2, 4]
         let array2 = [5, 9, 452, 856, 12, 768, 23, 2]
         // let mergeArray =[...array1,...array2] this is the shortcut way 
@@ -19,6 +20,22 @@
         }
         console.log(mergeArray)
 
+        // this is with while loop 
+
+        let array3 = [3, 5, 8, 3, 7, 2, 79, 2, 4]
+        let array4 = [5, 9, 452, 856, 12, 768, 23, 2]
+        let mergeArray2 = []
+        let m = 0
+        while (m < array3.length) {
+            mergeArray2.push(array3[m])
+            m++
+        }
+        let n = 0;
+        while (n < array4.length) {
+            mergeArray2.push(array4[n])
+            n++
+        }
+        console.log(mergeArray2)
     </script>
 </head>
 

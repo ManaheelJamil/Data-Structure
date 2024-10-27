@@ -1,0 +1,14 @@
+Algorithm
+algorithm is like steps, to write program and logic
+
+Big-O-Notation
+we denote complexity in code by BIG-O-Notation
+
+
+We have nultiple complexity
+Time complexity (like which time taken to run program it''s called complexity of time)
+Space complexity (like how many space of code  it's called complexity of speed)
+
+
+NO OF LINE OF CODE -------> Time complexity
+SPACE WHICH WE USE FOR WRITE CODE LIKE VARIABLE -------> Space complexity 

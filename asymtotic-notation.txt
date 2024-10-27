@@ -1,0 +1,7 @@
+5n^2 + 6n +12
+
+* n ----> no of inputs(element) in loop
+
+1. we just see this 5n^2
+2. and ignore this part 6n + 12 
+3. 
