@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let price = 100;
+        let totalApple = 0
+
+        function buyApple(x) {
+            if(x>10){
+                price--
+                buyApple(price)
+            }
+        }
+        
+        function buyMore() {
+            console.log("this is buy more function")
+        }
+        buyApple(price)
+    </script>
+</head>
+
+<body>
+    <h1>Indirect recusrion means you use two function in another</h1>
+</body>
+
+</html>
