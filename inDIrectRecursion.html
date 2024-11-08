@@ -10,14 +10,17 @@
         let totalApple = 0
 
         function buyApple(x) {
-            if(x>10){
-                price--
-                buyApple(price)
+            if (x > 0 ){
+                console.log(`i have ${x} RS and i bought ${totalApple} apple`)
+                buyMore(x)
+            }else{
+                console.log("i don't have money") 
             }
         }
         
-        function buyMore() {
-            console.log("this is buy more function")
+        function buyMore(x) {
+            totalApple++
+            buyApple(x-20)
         }
         buyApple(price)
     </script>
